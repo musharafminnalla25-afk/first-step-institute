@@ -1,0 +1,48 @@
+.main{
+    background-color: beige;
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+.main:hover{
+    transform: translate(50px);
+}
+.data1{
+    background-color: rgb(240, 240, 46);
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    transition-duration: 5s;
+    transition-delay: 2s;
+    transition-timing-function: linear;
+
+}
+.data1:hover{
+    transform: rotate(360deg);
+}
+.data2{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    transition-duration: 15s;
+    transition-delay: 2s;
+    transition-timing-function: linear;
+
+}
+.data2:hover{
+    transform: scale(1,2);
+}
+.data3{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    transition-duration: 15s;
+    transition-delay: 2s;
+    transition-timing-function: linear;
+
+}
+.data3:hover{
+    transform: skew(60deg);
+}

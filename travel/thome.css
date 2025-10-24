@@ -1,0 +1,14 @@
+.navbar{
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+a:hover{
+    padding: 40px;
+    margin: 20px;
+    font-size: medium;
+}
+a{
+    padding: 30px;
+}
